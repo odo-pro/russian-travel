@@ -7,6 +7,8 @@
     width: 100%;
     max-width: 43.75vw;
     text-align: center;
+    text-decoration: none;
+    position: relative;
 }
 
 @media screen and (max-width: 1024px) {
