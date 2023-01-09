@@ -1,0 +1,25 @@
+.header__logo {
+    width: 100%;
+    max-width: 13.75vw;
+    height: 52px;
+    position: relative;
+}
+
+@media screen and (max-width: 1024px) {
+    .header__logo {
+        max-width: 17.19vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header__logo {
+        max-width: 22.92vw;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header__logo {
+        max-width: 44.38vw;
+        height: 42px;
+    }
+}

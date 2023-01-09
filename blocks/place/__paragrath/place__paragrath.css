@@ -1,0 +1,33 @@
+.place__paragrath {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 163%;
+    gap: 26px;
+    text-align: left;
+    align-self: start;
+    grid-area: D;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__paragrath {
+        gap: 27px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__paragrath {
+        font-size: 16px;
+        gap: 25px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__paragrath {
+        font-size: 16px;
+        gap: 25px;
+    }
+}

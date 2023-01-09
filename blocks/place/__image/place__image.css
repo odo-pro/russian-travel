@@ -1,0 +1,29 @@
+.place__image {
+    width: 100%;
+    max-width: 34.95vw;
+    margin: 0;
+    object-fit: cover;
+    align-self: start;
+    justify-self: left;
+    grid-area: B;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__image {
+        max-width: 42.97vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__image {
+        max-width: 44.27vw;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__image {
+        max-width: 100vw;
+        margin-bottom: 32px;
+    }
+}
+

@@ -1,0 +1,25 @@
+.photo-grid__item {
+    width: 100%;
+    max-width: 22.50vw;
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1024px) {
+    .photo-grid__item {
+        max-width: 29.30vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .photo-grid__item {
+        max-width: 45.83vw;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .photo-grid__item {
+        max-width: 90vw;
+    }
+}
