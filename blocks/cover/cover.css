@@ -1,25 +1,8 @@
 .cover {
     width: 100%;
-    max-width: 92.50vw;
+    max-width: 1184px;
     min-height: 740px;
     margin: 0 auto;
-    background-image: linear-gradient(to top, rgba(42, 44, 47, .3), rgba(42, 44, 47, .3)),
-                      url(../../images/cover-trains.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: nowrap;
-    gap: 32px;
-    object-fit: cover;
-}
-
-.cover:hover {
-    background-color: #2A2C2F;
-    opacity: 0.2;
-    cursor: pointer;
 }
 
 @media screen and (max-width: 1024px) {
@@ -39,6 +22,5 @@
 @media screen and (max-width: 320px) {
     .cover {
         min-height: 200px;
-        gap: 16px;
     }
 }

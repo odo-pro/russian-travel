@@ -8,17 +8,10 @@
     letter-spacing: 1.5px;
     line-height: 1.4;
     width: 100%;
-    max-width: 158px;
     box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px) {
-    .lead__caption {
-        margin: 0 auto 0 24px;
-    }
-}
-
-@media screen and (max-width: 768px) {
     .lead__caption {
         margin: 0 auto 0 24px;
     }

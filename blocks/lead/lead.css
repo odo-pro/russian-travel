@@ -1,10 +1,11 @@
 .lead {
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
     max-width: 76.88vw;
     width: 100%;
-    min-height: 1005px;
+    min-height: 100%;
     margin: 56px auto 0;
     padding: 0;
     position: relative;
@@ -13,7 +14,6 @@
 @media screen and (max-width: 1024px) {
     .lead {
         max-width: 94.53vw;
-        min-height: 962px;
         margin: 48px auto 0;
     }
 }
@@ -21,13 +21,5 @@
 @media screen and (max-width: 768px) {
     .lead {
         max-width: 100vw;
-        min-height: 862px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .lead {
-        max-width: 100vw;
-        min-height: 406px;
     }
 }

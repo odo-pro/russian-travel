@@ -1,7 +1,9 @@
 .intro__title {
     color: #fff;
     font-size: 54px;
+    font-style: normal;
     font-weight: 900;
+    line-height: 107%;
     text-align: left;
     max-width: 53.91vw;
     margin: 0;
@@ -24,5 +26,6 @@
     .intro__title {
         max-width: 90vw;
         font-size: 32px;
+        line-height: 109%;
     }
 }
