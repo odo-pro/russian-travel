@@ -2,13 +2,12 @@
     color: #fff;
     font-size: 10px;
     font-weight: 100;
-    margin: 0 auto 0 0;
+    margin: 0 auto 0 100px;
     text-align: left;
     text-transform: uppercase;
     letter-spacing: 1.5px;
     line-height: 1.4;
-    width: 100%;
-    box-sizing: border-box;
+    max-width: 160px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -17,7 +16,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 426px) {
     .lead__caption {
         margin: 0 auto 0 16px;
     }

@@ -1,8 +1,8 @@
 .header__logo {
     width: 100%;
-    max-width: 13.75vw;
+    max-width: 176px;
     height: 52px;
-    position: relative;
+    align-self: flex-start;
 }
 
 @media screen and (max-width: 1024px) {

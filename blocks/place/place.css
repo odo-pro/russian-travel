@@ -3,7 +3,7 @@
     grid-template-columns: auto 2fr;
     grid-template-rows: auto 2fr;
     width: 100%;
-    max-width: 75vw;
+    max-width: 984px;
     min-height: 100%;
     margin: 0 auto 0;
     padding: 0;
@@ -28,7 +28,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
     .place {
         max-width: 100vw;
         grid-template-columns: auto 1fr;
@@ -39,5 +39,11 @@
         "B"
         "D";
         gap: 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place {
+        max-width: 320px;
     }
 }

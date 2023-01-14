@@ -5,8 +5,7 @@
     padding: 0;
     margin: 0;
     width: 100%;
-    max-width: 43.75vw;
-    min-height: 152px;
+    max-width: 560px;
     text-align: center;
 }
 
@@ -29,12 +28,6 @@
 }
 
 @media screen and (max-width: 400px) {
-    .cover__title {
-        font-size: 36px;
-    }
-}
-
-@media screen and (max-width: 320px) {
     .cover__title {
         font-size: 32px;
         max-width: 90vw;
