@@ -20,11 +20,11 @@
     .places {
         max-width: 93.75vw;
         margin: 0 auto 90px;
-        row-gap: 72px;
+        row-gap: 73px;
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
     .places {
         max-width: 100vw;
         margin: 0 auto 66px;

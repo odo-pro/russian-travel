@@ -5,26 +5,26 @@
     font-weight: 900;
     margin: 0;
     text-align: left;
-    box-sizing: border-box;
-    width: 100%;
+    align-self: flex-start;
     max-width: 460px;
     grid-area: A;
 }
 
 @media screen and (max-width: 1024px) {
     .place__title {
-        max-width: 42.97vw;
+        max-width: 42vw;
     }
 }
 
 @media screen and (max-width: 768px) {
     .place__title {
-        max-width: 44.27vw;
+        max-width: 340px;
         font-size: 42px;
+        line-height: 46px;
     }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 767px) {
     .place__title {
         max-width: 288px;
         font-size: 32px;
